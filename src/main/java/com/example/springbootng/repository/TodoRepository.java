@@ -1,7 +1,8 @@
-package com.example.springbootjava.repository;
+package com.example.springbootng.repository;
 
-import com.example.springbootjava.domain.Todo;
 import org.springframework.data.repository.CrudRepository;
+
+import com.example.springbootng.domain.Todo;
 
 
 public interface TodoRepository extends CrudRepository<Todo, Long> { }
